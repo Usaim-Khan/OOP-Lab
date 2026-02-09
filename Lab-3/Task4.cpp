@@ -67,6 +67,7 @@ int main(){
     int t[3] = {200,-600,500};
     BankAccount a1(101,5000,t,3);
     BankAccount a2 = a1;
+    
 
     a2.makeTransaction(-1500);
     a2.makeTransaction(2500);
